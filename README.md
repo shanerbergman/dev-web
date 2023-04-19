@@ -1,56 +1,17 @@
-# Dev Web for Shane Bergman
+# Simple Site to Highlight Me
 
-This project will highlight some of my skill
+This project is simply a place for me to advertise myself
 
-## What is inside?
+## Skills
 
-This project uses many tools like:
+- React
+- Redux
+- JavaScript
+- GeoSpatial
+- Data Visualization
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+## About Me
 
-Serve with hot reload at <http://localhost:5173>.
+My name is Shane 👋😃, I am a Software Engineer and I love building apps and websites 🚀. You can find me on the following links.
 
-```bash
-npm run dev
-```
-
-### Lint
-
-```bash
-npm run lint
-```
-
-### Typecheck
-
-```bash
-npm run typecheck
-```
-
-### Build
-
-```bash
-npm run build
-```
-
-### Test
-
-```bash
-npm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.
+- [Linkedin](https://www.linkedin.com/in/shane-r-bergman/).
