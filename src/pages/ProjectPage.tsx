@@ -1,21 +1,20 @@
-import { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
-import BackButton from '../components/BackButton'
-import ContactSection from '../components/ContactSection'
-import { Container } from '../components/Container'
-import { projects } from '../data/posts'
-import NotFound from './NotFound'
-import { Helmet } from 'react-helmet'
+import { useParams } from "react-router-dom";
+import BackButton from "../components/BackButton";
+import ContactSection from "../components/ContactSection";
+import { Container } from "../components/Container";
+import { projects } from "../data/posts";
+import NotFound from "./NotFound";
+import { Helmet } from "react-helmet";
 
 function ProjectPage() {
-  const params = useParams()
-  const slug = params.slug || ''
+  const params = useParams();
+  const slug = params.slug || "";
   const project = projects.find((p) => {
-    return p.slug === slug
-  })
+    return p.slug === slug;
+  });
 
   if (project == undefined) {
-    return <NotFound />
+    return <NotFound />;
   } else {
     return (
       <div>
@@ -41,8 +40,8 @@ function ProjectPage() {
           <ContactSection />
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default ProjectPage
+export default ProjectPage;

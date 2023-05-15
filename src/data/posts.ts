@@ -1,5 +1,6 @@
 export type Project = {
   link: string;
+  slug: string;
   title: string;
   description: string;
   image: string;
@@ -8,6 +9,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     link: "github.com/shanerbergman",
+    slug: "d3",
     title: "D3 Visualizations with React",
     description: "Fun Visualizations using React and D3",
     image:
@@ -15,26 +17,11 @@ export const projects: Project[] = [
   },
   {
     link: "react-infinite-scroll",
+    slug: "mapbox_custom_draw",
     title: "React Infinite Scroll",
     description:
       "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
     image:
       "https://images.unsplash.com/photo-1670441182961-0bf8a667821f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-  },
-  {
-    link: "photo-gallery",
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    image:
-      "https://images.unsplash.com/photo-1503875154399-95d2b151e3b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sb3JmdWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-  },
-  {
-    link: "event-planner",
-    title: "Event planner",
-    description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    image:
-      "https://images.unsplash.com/photo-1538291323976-37dcaafccb12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
   },
 ];

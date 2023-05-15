@@ -11,6 +11,7 @@ function ProjectsSection() {
         <ProjectCard
           key={project.title}
           title={project.title}
+          slug={project.slug}
           image={project.image}
           description={project.description}
           link={project.link}

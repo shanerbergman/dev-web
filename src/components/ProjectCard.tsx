@@ -1,6 +1,6 @@
 import { Project } from "../data/posts";
 
-function ProjectCard({ title, description, image, link }: Project) {
+function ProjectCard({ title, slug, description, image, link }: Project) {
   return (
     <div>
       <div className="border border-slate-100 rounded-lg overflow-hidden">
@@ -11,6 +11,7 @@ function ProjectCard({ title, description, image, link }: Project) {
           </a>
 
           <p className="text-lg text-gray-500">{description}</p>
+          <p>{slug}</p>
         </div>
       </div>
     </div>
