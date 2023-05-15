@@ -4,7 +4,7 @@ const greeting = "Hello, I am Shane!";
 const bio1 =
   "I am a frontend developer.  I build solutions.  I love using React.";
 const bio2 =
-  "I specialize in GeoSpatial but can do all things related to the Front End.  Need a interactive map, no problem, need a D3 visualization, you got it, want a modern looking app leveraging a component library, sure thing.  I can build what you want in time and on budget.";
+  "I specialize in GeoSpatial but can do all things related to the Front End.  Need a interactive map, no problem.  Need a D3 visualization, you got it.  Want a modern looking app leveraging a component library, sure thing.  I can build what you want in time and on budget.";
 
 function LandingSection() {
   return (

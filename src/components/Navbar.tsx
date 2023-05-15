@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  InstagramLogoIcon,
   EnvelopeClosedIcon,
   RocketIcon,
 } from "@radix-ui/react-icons";
