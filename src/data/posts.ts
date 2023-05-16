@@ -12,16 +12,13 @@ export const projects: Project[] = [
     slug: "d3",
     title: "D3 Visualizations with React",
     description: "Fun Visualizations using React and D3",
-    image:
-      "https://images.unsplash.com/photo-1666535904626-9711b03e2aba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+    image: "fun_with_d3.png",
   },
   {
     link: "react-infinite-scroll",
-    slug: "mapbox_custom_draw",
-    title: "React Infinite Scroll",
-    description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    image:
-      "https://images.unsplash.com/photo-1670441182961-0bf8a667821f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    slug: "custom_draw_mapbox",
+    title: "Mapbox Custom Draw Tool",
+    description: "A custom Draw Tool made in Mapbox",
+    image: "custom_draw_mapbox.png",
   },
 ];
