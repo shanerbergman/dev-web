@@ -8,7 +8,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    link: "github.com/shanerbergman",
+    link: "d3.shanebergman.com",
     slug: "d3",
     title: "D3 Visualizations with React",
     description: "Fun Visualizations using React and D3",
