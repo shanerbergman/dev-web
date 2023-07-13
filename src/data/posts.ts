@@ -15,7 +15,7 @@ export const projects: Project[] = [
     image: "fun_with_d3.png",
   },
   {
-    link: "react-infinite-scroll",
+    link: "mapboxdraw.shanebergman.com",
     slug: "custom_draw_mapbox",
     title: "Mapbox Custom Draw Tool",
     description: "A custom Draw Tool made in Mapbox",
