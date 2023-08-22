@@ -5,7 +5,7 @@ function ProjectsSection() {
   return (
     <div
       id="projectsSection"
-      className="my-8 py-8 grid grid-cols-1 gap-8 md:grid-cols-2"
+      className="my-8 py-8 grid  gap-8 md:grid-cols-3  grid-cols-1"
     >
       {projects.map((project) => (
         <ProjectCard

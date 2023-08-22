@@ -64,14 +64,6 @@ function Navbar() {
 
           <p className="hidden md:block">My Projects</p>
         </button>
-        <button
-          onClick={() => handleClickScroll("contactSection")}
-          className="flex gap-4 justify-center items-center"
-        >
-          <EnvelopeClosedIcon width={20} height={20} />
-
-          <p className="hidden md:block">Contact me</p>
-        </button>
       </ul>
     </nav>
   );

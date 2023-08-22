@@ -37,8 +37,6 @@ function ContactForm() {
        validationSchema={SignupSchema}
        onSubmit={(values) => {
           onOpen('All good!', `Thanks for your submission ${values.name}, we will get back to you shortly!`)
-        //  console.log( "values" , values);
-        console.log(isOpen);
        }}>
 
       <Form className='flex flex-col gap-6'>

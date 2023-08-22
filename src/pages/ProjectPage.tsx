@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import BackButton from "../components/BackButton";
-import ContactSection from "../components/ContactSection";
 import { Container } from "../components/Container";
 import { projects } from "../data/posts";
 import NotFound from "./NotFound";
@@ -33,12 +32,9 @@ function ProjectPage() {
               {project.title}
             </h1>
           </section>
-          <section></section>
+
           <section>{project.description}</section>
         </Container>
-        <div className="my-24">
-          <ContactSection />
-        </div>
       </div>
     );
   }

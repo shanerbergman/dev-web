@@ -7,7 +7,7 @@ function ProjectCard({ title, slug, description, image, link }: Project) {
         <a href={`https://${link}`} target="_blank" rel="noreferrer">
           <img
             src={`./${image}`}
-            className=" object-cover w-full h-96 mb-4"
+            className=" object-cover w-full h-66 mb-4"
             alt=""
           />
         </a>
