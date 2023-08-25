@@ -1,5 +1,5 @@
 import { Project } from "../data/posts";
-
+const test = "test";
 function ProjectCard({ title, slug, description, image, link }: Project) {
   const text = "test";
   return (
