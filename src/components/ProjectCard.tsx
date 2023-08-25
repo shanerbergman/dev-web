@@ -1,6 +1,7 @@
 import { Project } from "../data/posts";
 
 function ProjectCard({ title, slug, description, image, link }: Project) {
+  const text = "test";
   return (
     <div>
       <div className="border border-slate-100 rounded-lg overflow-hidden">
